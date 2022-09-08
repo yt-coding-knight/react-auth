@@ -1,6 +1,10 @@
 import ErrorMessage from "./ErrorMessage";
 
-export default function FormControl({ children, errMsg, errTextSize }) {
+export default function FormControl({
+  children,
+  errMsg,
+  errTextSize = "text-xs",
+}) {
   return (
     <div className="flex flex-col">
       {children}
