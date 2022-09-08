@@ -1,4 +1,11 @@
-export default function Input({ type, placeholder, name }) {
+export default function Input({
+  type,
+  placeholder,
+  name,
+  register,
+  validate,
+  required,
+}) {
   return (
     <input
       className="form-input"
